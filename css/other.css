@@ -1,0 +1,55 @@
+/*body{
+  font-family: Arail, sans-serif;
+}
+*/
+/* Formatting search box */
+.search-box{
+    width: 60%;
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 15px;
+
+}
+.search-box input[type="text"]{
+    height: 32px;
+    padding: 5px 10px;
+    border: 1px solid #CCCCCC;
+    font-size: 14px;
+}
+.result{
+    position: absolute;
+    background: #fefefe;
+    z-index: 999;
+    top: 100%;
+    left: 0;
+}
+.search-box input[type="text"], .result{
+    width: 100%;
+    box-sizing: border-box;
+}
+/* Formatting result items */
+.result p{
+    margin: 0;
+    background: #fefefe;
+    padding: 4px 2px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    cursor: pointer;
+}
+
+.result a{
+    margin: 0;
+    background-color: #fefefe;
+    padding: 2px 2px;
+    border: none;
+    border-top: none;
+    cursor: pointer;
+}
+
+.result p:hover{
+    background: #ffffff;
+}
+.hospitalstats h2{
+    font-size: 18px;
+}
